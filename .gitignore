@@ -11,3 +11,8 @@
 
 #!.yarn/cache
 .pnp.*
+
+dist
+node_modules
+.yarn
+.editorconfig
