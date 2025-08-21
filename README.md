@@ -26,7 +26,7 @@ Using github actions, (or a CI/CD platform you're comfortable with) create a set
 - Create a workflow for releasing this app to a deployed environment.  This should include simple controls that allow users to safely and reliably build and deploy the app to a test environment and a production environment.
 
 ## Goal 2
-The aforementioned release process should deploy this application to a cloud environment of your choice. The `/hello` endpoint should be publicly accessible.
+The aforementioned release process should deploy this application to a cloud environment of your choice.  The `/hello` endpoint should be publicly accessible.  Show how this infrastructure can be maintained and evolve over time.
 
 ## Submitting your work
 Once you're done, add a section to this README file explaining your approach, providing any details you see fit and the rationale for the decisions you made while putting this together.  Feel free to add notes about what you omitted and would have included in a real-world implementation.  Finally, send us a link to your repo and we will ask questions and provide feedback.
