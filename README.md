@@ -1,7 +1,7 @@
 # weavix-platform-takehome
 This is the platform interview take home project.  It is purposefully broad! We want to see what you choose to focus on and how you handle some common scenarios.  Be prepared to explain your rationale for the choices you make while implementing these example scenarios.  You should spend no more than 5 hours on this project.
 
-### Intro
+## Intro
 This repo contains a simple express http server that has one GET endpoint `/hello` which returns a greeting.  You can run it with the following commands.
 
 ```
