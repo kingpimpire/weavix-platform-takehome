@@ -1,6 +1,6 @@
 {
   "name": "weavix-platform-takehome",
-  "packageManager": "yarn@4.6.0",
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsc",
