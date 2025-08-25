@@ -5,7 +5,7 @@ const app = express();
 const PORT: number = parseInt(process.env.PORT || "3000", 10);
 
 app.get("/hello", (req: Request, res: Response) => {
-  const message = constructResponse("weavix.<br />All your base are belong to us.");
+  const message = constructResponse("weavix.<br />All your base are belong to us.<br /><br />Press any key to format your hard drive.");
   res.send(message);
 });
 
