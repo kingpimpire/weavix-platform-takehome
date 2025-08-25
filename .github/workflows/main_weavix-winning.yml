@@ -44,6 +44,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'weavix-winning'
-          slot-name: 'staging'
+          slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZURE_WEBAPP_STAGING_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_651A8EDBE84944CF94EB1A0F138F12AB }}
