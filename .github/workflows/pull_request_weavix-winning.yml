@@ -24,8 +24,7 @@ jobs:
         with:
           name: node-app
           path: .
-      - name: yarn install, build and test
-          run: | 
-            yarn 
-            yarn build
-            yarn test
+      - name: yarn build
+        run: yarn build
+      - name: yarn test
+        run: yarn test
