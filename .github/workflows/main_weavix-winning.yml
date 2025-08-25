@@ -46,4 +46,4 @@ jobs:
           app-name: 'weavix-winning'
           slot-name: 'weavix-winning-staging'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_651A8EDBE84944CF94EB1A0F138F12AB }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_STAGING_PUBLISH_PROFILE }}
